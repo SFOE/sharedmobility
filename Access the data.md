@@ -23,6 +23,6 @@ See (verlinken auf Ergänzung GBFS)
 GeoJSON-File:
 www.sharedmobility.ch/swisstopo
 
-##Web-Service
+## Web-Service
 
-Data will be available via [swisstopo REST API](https://api3.geo.admin.ch/index.html) from summer 2021.
+Data will soon be available via [swisstopo REST API](https://api3.geo.admin.ch/index.html).
