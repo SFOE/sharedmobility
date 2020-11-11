@@ -6,6 +6,6 @@ The aim is therefore to create a national platform that gives public access to t
 This documentation guides you to all sharedmobility.ch ressources.
 * [Access the data](https://github.com/SFOE/sharedmobility/blob/main/Access%20the%20data.md)
 * [List of shared mobility providers](https://github.com/SFOE/sharedmobility/blob/main/List%20of%20shared%20mobility%20providers.md)
-* [Additions to GBFS]
+* [Additions to GBFS](https://github.com/SFOE/sharedmobility/blob/main/Additions%20to%20GBFS.md)
 
 Are you a shared mobility provider who is interested in showing shared mobility assets on sharedmobility.ch? Contact us on geoinformation@bfe.admin.ch
