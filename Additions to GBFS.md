@@ -7,11 +7,10 @@ GBFS is optimized to represent one single system. In order to represent multiple
 
 [Providers.json](https://bfe-test.oevfahrplan.ch/providers.json) (Link anpassen) was added as an additional JSON-File to the GBFS-Feed. Providers.json describes metainformation of every system. Fields are identical to system_informatin.json. One additional field (provider_id) was added (see also [List of shared mobility providers](https://github.com/SFOE/sharedmobility/blob/main/List%20of%20shared%20mobility%20providers.md).
 
-## Add field provider_id to data
+## Changes in station_information.json
 
-In order to assign data to a system, the field provider_id was added as followed:
-
-**station_information.json**
+* The field station_id is connected from provider_id and station_id
+* provider_id is added to stations as followed:
  ```json
       "station_id" : "carvelo2go:1f20dbbd-a186-4ae4-ae0b-0236e4770a0f",
       "name" : "Agentur UMSICHT",
