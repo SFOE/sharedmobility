@@ -1,4 +1,4 @@
-#List of shared mobility providers
+# List of shared mobility providers
 
 | Shared mobility provider | provider id | vehicle type | Update cycle
 | --- | --- | --- | ---
