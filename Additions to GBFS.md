@@ -12,14 +12,23 @@ GBFS is optimized to represent one single system. In order to represent multiple
 * The field station_id is connected from provider_id and station_id
 * provider_id is added to stations as followed:
  ```json
-      "station_id" : "carvelo2go:1f20dbbd-a186-4ae4-ae0b-0236e4770a0f",
-      "name" : "Agentur UMSICHT",
-      "lat" : 47.04885,
-      "lon" : 8.300365,
-      "address" : "Klosterstrasse 21 a",
-      "region_id" : "carvelo2go:404c3386-19d5-4931-b999-4f90fa9c9184",
-      "post_code" : "6003",
+{
+  "last_updated" : 1605098383,
+  "ttl" : 60,
+  "version" : "2.0",
+  "data" : {
+    "stations" : [ {
+      "station_id" : "carvelo2go:e4d4f78a-861d-49a9-c216-be6e288dec5a",
+      "name" : "8610 im Stadtpark ",
+      "lat" : 47.34867,
+      "lon" : 8.71413,
+      "address" : "Landihalle",
+      "region_id" : "carvelo2go:936ccc56-80e6-441f-959b-da5747118c61",
+      "post_code" : "8610",
       "provider_id" : "carvelo2go"
+        } ]
+  }
+}
 ```
 
 
