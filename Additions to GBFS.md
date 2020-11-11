@@ -12,9 +12,7 @@ GBFS is optimized to represent one single system. In order to represent multiple
 In order to assign data to a system, the field provider_id was added as followed:
 
 **station_information.json**
-
  ```json
-{
       "station_id" : "carvelo2go:1f20dbbd-a186-4ae4-ae0b-0236e4770a0f",
       "name" : "Agentur UMSICHT",
       "lat" : 47.04885,
@@ -23,8 +21,6 @@ In order to assign data to a system, the field provider_id was added as followed
       "region_id" : "carvelo2go:404c3386-19d5-4931-b999-4f90fa9c9184",
       "post_code" : "6003",
       "provider_id" : "carvelo2go"
-		}
-}
 ```
 
 
