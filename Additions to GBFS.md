@@ -26,13 +26,47 @@ GBFS is optimized to represent one single system. In order to represent multiple
       "region_id" : "carvelo2go:936ccc56-80e6-441f-959b-da5747118c61",
       "post_code" : "8610",
       "provider_id" : "carvelo2go"
-        } ]
-  }
-}
+    }
 ```
 
+##Changes in station_status.json
 
+* The field station_id is connected from provider_id and station_id
+* provider_id is added to stations as followed:
+ ```json
+{
+  "last_updated" : 1605098165,
+  "ttl" : 60,
+  "version" : "2.0",
+  "data" : {
+    "stations" : [ {
+      "station_id" : "donkey_thun:17447",
+      "num_bikes_available" : 0,
+      "num_docks_available" : 25,
+      "last_reported" : 1605096513,
+      "provider_id" : "donkey_thun"
+    }
+```
 
+##Changes in free_bike_status.json
+
+* The field bike_id is connected from provider_id and bike_id
+* provider_id is added to bikes as followed:
+ ```json
+{
+  "last_updated" : 1605099018,
+  "ttl" : 60,
+  "version" : "2.0",
+  "data" : {
+    "bikes" : [ {
+      "bike_id" : "airbie-6759c:IszKSTulW6rLO0cJ",
+      "lat" : 47.17566,
+      "lon" : 8.515347,
+      "is_disabled" : 0,
+      "is_reserved" : 0,
+      "provider_id" : "airbie-6759c"
+    }
+```
 
 
 ## Differences
