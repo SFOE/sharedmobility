@@ -4,8 +4,8 @@ In Switzerland, ever greater numbers of people are travelling longer distances a
 The aim is therefore to create a national platform that gives public access to the aggregated data of all interested Shared Mobility providers in real time and at a high quality. As the data is connected auto-matically to the internet via an IT interface, it can be kept up to date with a minimum of effort. The aggregated data can be integrated directly into third-party applications via predefined interfaces.
 
 This documentation guides you to all sharedmobility.ch ressources.
-*Access the data
-*List of shared mobility providers
-*Additions to GBFS
+*[Access the data]
+*[List of shared mobility providers]
+*[Additions to GBFS]
 
 Are you a shared mobility provider who is interested in showing shared mobility assets on sharedmobility.ch? Contact us on geoinformation@bfe.admin.ch
