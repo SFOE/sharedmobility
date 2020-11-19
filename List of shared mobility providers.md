@@ -14,7 +14,7 @@
 | Donkey Republic Thun | donkey_thun | Bike | 60s
 | Donkey Republic Yverdon-les-Bains | donkey_yverdon-les-bains | Bike | 60s
 | edrive carsharing | edrivecarsharing | E-Car | 60s
-| mobility | Mobility | Car | 300s
+| Mobility | mobility | Car | 300s
 | Nextbike | nextbike_ch | Bike | 60s
 | Pick-e-Bike | pickebike_basel | E-Bike | 300s
 | PubliBike | publibike | Bike | 180s
