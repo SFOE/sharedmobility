@@ -15,10 +15,13 @@
 | Donkey Republic Yverdon-les-Bains | donkey_yverdon-les-bains | Bike | 60s
 | edrive carsharing | edrivecarsharing | E-Car | 60s
 | Mobility | mobility | Car | 300s
+| Mobility | emobility | E-Car | 300s
 | Nextbike | nextbike_ch | Bike | 60s
 | Pick-e-Bike | pickebike_basel | E-Bike | 300s
-| PubliBike | publibike | Bike | 180s
-| PubliBike | publiebike | E-Bike | 180s
+| PubliBike | publibike | Bike | ???
+| PubliBike | rent_a_ebike | E-Bike | ???
+| Rent a Bike | rent_a_bike | E-Bike | 180s
+| Rent a Bike | publiebike | E-Bike | 180s
 | VOI | voiscooters.com | E-Scooter | 10s
 | Zisch Basel | bird-platform-partner-zisch-basel | E-Scooter | 60s
 | Zisch Zürich | bird-platform-partner-zisch-zurich | E-Scooter | 60s
