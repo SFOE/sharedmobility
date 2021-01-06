@@ -18,5 +18,6 @@ GBFS 2.0 endpoint:
 [sharedmobility.ch/gbfs.json](https://sharedmobility.ch/gbfs.json)
 
 Please check the differences to GBFS 2.0 made to support multiple systems in one feed:
+
 [Additions to GBFS](https://github.com/SFOE/sharedmobility/blob/main/Additions%20to%20GBFS.md)
 
