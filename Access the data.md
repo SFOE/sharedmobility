@@ -1,3 +1,5 @@
+***Access the data
+
 Sharedmobility.ch aggregates the data of shared mobility providers in near real-time. The data is available as:
 
 * GBFS 2.0
