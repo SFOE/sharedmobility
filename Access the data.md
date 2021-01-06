@@ -1,7 +1,6 @@
 Sharedmobility.ch aggregates the data of shared mobility providers in near real-time. The data is available as:
 
 * GBFS 2.0
-* GeoJSON
 
 **Terms of use**: Open use. Must provider the source.
 
@@ -14,14 +13,10 @@ See [opendata.swiss] for more information (Link ergänzen).
 ## GBFS 2.0
 
 GBFS 2.0 endpoint:
-www.sharedmobility.ch/gbfs.json
+[sharedmobility.ch/gbfs.json](sharedmobility.ch/gbfs.json)
 
 See (verlinken auf Ergänzung GBFS)
 
-## GeoJSON
-
-GeoJSON-File:
-www.sharedmobility.ch/swisstopo
 
 ## Web-Service
 
