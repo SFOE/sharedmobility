@@ -13,11 +13,8 @@ See [opendata.swiss] for more information (Link ergänzen).
 ## GBFS 2.0
 
 GBFS 2.0 endpoint:
-[sharedmobility.ch/gbfs.json](sharedmobility.ch/gbfs.json)
+[sharedmobility.ch/gbfs.json](https://sharedmobility.ch/gbfs.json)
 
-See (verlinken auf Ergänzung GBFS)
+Please check the differences to GBFS 2.0 made to support multiple systems in one feed:
+[Additions to GBFS](https://github.com/SFOE/sharedmobility/blob/main/Additions%20to%20GBFS.md)
 
-
-## Web-Service
-
-Data will soon be available via [swisstopo REST API](https://api3.geo.admin.ch/index.html).
