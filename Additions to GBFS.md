@@ -31,7 +31,7 @@ GBFS is optimized to represent one single system. In order to represent multiple
 
 ## Changes in station_status.json
 
-* The field station_id comprises themerged fields provider_id and station_id
+* The field station_id comprises the merged fields provider_id and station_id
 * provider_id is added to stations as followed:
  ```json
 {
