@@ -1,6 +1,6 @@
 # Additions to GBFS
 
-Sharedmobility.ch is based on the [General Bikeshare Feed Specification (GBFS)](https://github.com/SFOE/sharedmobility/blob/main/Access%20the%20data.md) Version 2.0.
+Sharedmobility.ch is based on the [General Bikeshare Feed Specification (GBFS)](https://github.com/NABSA/gbfs/blob/v2.0/gbfs.md) Version 2.0.
 GBFS is optimized to represent one single system. In order to represent multiple systems in one feed, the following additions to GBFS V2.0 were made:
 
 ## Add providers.json
@@ -9,7 +9,7 @@ GBFS is optimized to represent one single system. In order to represent multiple
 
 ## Changes in station_information.json
 
-* The field station_id is connected from provider_id and station_id
+* The field station_id comprises the merged fields provider_id and station_id
 * provider_id is added to stations as followed:
  ```json
 {
@@ -31,7 +31,7 @@ GBFS is optimized to represent one single system. In order to represent multiple
 
 ## Changes in station_status.json
 
-* The field station_id is connected from provider_id and station_id
+* The field station_id comprises themerged fields provider_id and station_id
 * provider_id is added to stations as followed:
  ```json
 {
@@ -50,7 +50,7 @@ GBFS is optimized to represent one single system. In order to represent multiple
 
 ## Changes in free_bike_status.json
 
-* The field bike_id is connected from provider_id and bike_id
+* The field bike_id comprises the merged fields provider_id and bike_id
 * provider_id is added to bikes as followed:
  ```json
 {
