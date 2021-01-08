@@ -2,9 +2,9 @@
 
 Sharedmobility.ch aggregates the data of shared mobility providers in near real-time. The data is available as:
 
-* GBFS 2.0
+* GBFS 2.0 endpoint
 
-**Terms of use**: Open use. Must provider the source.
+**Terms of use**: Open use. Must provide the source.
 
 * You may use this dataset for non-commercial purposes.
 * You may use this dataset for commercial purposes.
@@ -12,7 +12,7 @@ Sharedmobility.ch aggregates the data of shared mobility providers in near real-
 
 See [opendata.swiss] for more information (Link ergänzen).
 
-## GBFS 2.0
+## GBFS 2.0 endpoint
 
 GBFS 2.0 endpoint:
 [sharedmobility.ch/gbfs.json](https://sharedmobility.ch/gbfs.json)
