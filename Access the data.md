@@ -10,7 +10,7 @@ Sharedmobility.ch aggregates the data of shared mobility providers in near real-
 * You may use this dataset for commercial purposes.
 * You must provide the source (author, title and link to the dataset).
 
-See [opendata.swiss] for more information (Link ergänzen).
+See [opendata.swiss](https://opendata.swiss/en/dataset/standorte-und-verfugbarkeit-von-shared-mobility-angeboten) for more information.
 
 ## GBFS 2.0 endpoint
 
