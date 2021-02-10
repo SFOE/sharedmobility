@@ -5,6 +5,8 @@ Bird Rides,bird-platform-partner-seven-group-basel,E-Scooter,60s
 Bird Rides,bird-platform-partner-seven-group-winterthur,E-Scooter,60s
 BOND,bond_ch,E-Bike,60s
 Carvelo2go,carvelo2go,E-CargoBike,10s
+Donkey Republic Genève,donkey_ge,Bike,60s
+Donkey Republic Liechtenstein,donkey_li,Bike,60s
 Donkey Republic Le Locle,donkey_le_locle,Bike,60s
 Donkey Republic Neuchâtel,donkey_neuchatel,Bike,60s
 Donkey Republic Sion,donkey_sion,Bike,60s
@@ -13,6 +15,8 @@ Donkey Republic Yverdon-les-Bains,donkey_yverdon-les-bains,Bike,60s
 edrive carsharing,edrivecarsharing,E-Car,60s
 Mobility,mobility,Car,300s
 Mobility,emobility,E-Car,300s
+Mobility-Go,mobility_go,Car,300s
+Mobility-Go,emobility_go,E-Car,300s
 Nextbike,nextbike_ch,Bike,60s
 Pick-e-Bike,pickebike_basel,E-Bike,300s
 PubliBike,publibike,Bike,180s
