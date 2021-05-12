@@ -71,6 +71,21 @@ GBFS is optimized to represent one single system. In order to represent multiple
     }
 ```
 
+## Changes in geofencing_zones.json
+
+* provider_id is added to the properties of a geofencing zone as followed:
+ ```json
+ "properties" : {
+   "name" : "Bond Zürich",
+   "rules" : [
+     {
+       "ride_allowed" : "true",
+       "ride_trough_allowed" : "true"
+     }
+  ],
+  "provider_id" : "bond_ch"
+}
+```
 
 ## Differences
 * According to GBFS V2 the field bike_id in free_bike_status.json has to be rotated to a random string, at a minimum, after each trip to protect privacy. This is not fully supported by all providers.
