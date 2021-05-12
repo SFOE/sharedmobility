@@ -5,7 +5,10 @@ GBFS is optimized to represent one single system. In order to represent multiple
 
 ## Add providers.json
 
-[Providers.json](https://sharedmobility.ch/providers.json) was added as an additional JSON-File to the GBFS-Feed. Providers.json describes metainformation of every system. Fields are identical to system_information.json. One additional field (provider_id) was added (see also [List of shared mobility providers](https://github.com/SFOE/sharedmobility/blob/main/providers.csv)).
+[Providers.json](https://sharedmobility.ch/providers.json) was added as an additional JSON-File to the GBFS-Feed. Providers.json describes metainformation of every system. Fields are identical to system_information.json. The following fields were added:
+
+* (provider_id) was added (see also [List of shared mobility providers](https://github.com/SFOE/sharedmobility/blob/main/providers.csv)).
+* vehicle_type is added. The following vehicle types are possible: Bike, E-Bike, CargoBike, E-CargoBike, Scooter, E-Scooter, Moped, E-Moped, Car, E-Car, Taxi, E-Taxi, Other, E-Other
 
 ## Changes in station_information.json
 
