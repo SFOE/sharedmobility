@@ -9,12 +9,16 @@ Donkey Republic,donkey_sion,Bike,60s
 Donkey Republic,donkey_thun,Bike,60s
 Donkey Republic,donkey_yverdon-les-bains,Bike,60s
 edrive carsharing,edrivecarsharing,E-Car,60s
+JM Fleets,bird-platform-partner-jmfleetswl-biel,E-Scooter,60s
+JM Fleets,bird-platform-partner-jmfleets-bulle,E-Scooter,60s
 Mobility,mobility,Car,300s
 Mobility,emobility,E-Car,300s
 Mobility-Go,mobility_go,Car,300s
 Mobility-Go,emobility_go,E-Car,300s
 Nextbike,nextbike_ch,Bike,60s
+Pick-e-Bike,pickebike_aubonne,E-Bike,300s
 Pick-e-Bike,pickebike_basel,E-Bike,300s
+Pick-e-Bike,pickebike_fribourg,E-Bike,300s
 PubliBike,publibike,Bike,180s
 PubliBike,publiebike,E-Bike,180s
 Rent a Bike,rent_a_bike,E-Bike,300s
