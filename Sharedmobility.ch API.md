@@ -58,7 +58,8 @@ searchText=ETH Hönggerberg
 
 E.G: [Get all stations from provider "Rent_a_bike" with station name "Bahnhof"](https://api.sharedmobility.ch/v1/sharedmobility/find?filters=ch.bfe.sharedmobility.provider.id%3Drent_a_bike&searchText=Bahnhof&searchField=ch.bfe.sharedmobility.station.name&offset=0&geometryFormat=esrijson)
 ```
-https://api.sharedmobility.ch/v1/sharedmobility/find?filters=ch.bfe.sharedmobility.provider.id=rent_a_bike
+https://api.sharedmobility.ch/v1/sharedmobility/find?
+filters=ch.bfe.sharedmobility.provider.id=rent_a_bike
 &searchText=Bahnhof
 &searchField=ch.bfe.sharedmobility.station.name
 &offset=0
