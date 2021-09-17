@@ -29,6 +29,7 @@ The following attributes are available:
 
 Attributes to query station_based systems
 | Attribute | Description |
+| --------------- | --------- |
 | ch.bfe.sharedmobility.available | Availability of a station |
 | ch.bfe.sharedmobility.station.id | Id of a station |
 | ch.bfe.sharedmobility.station.postcode | ZIP code of a station. Note that not all stations have postcode information |
@@ -38,6 +39,7 @@ Attributes to query station_based systems
 
 Attributes to query free_floating systems
 | Attribute | Description |
+| --------------- | --------- |
 | ch.bfe.sharedmobility.vehicle.status.disabled | If *true* a vehicle is currently disabled |
 | ch.bfe.sharedmobility.vehicle.status.reserved | If *true* a vehicle is currently reserved |
 
