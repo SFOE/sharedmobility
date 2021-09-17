@@ -20,8 +20,25 @@ https://api.sharedmobility.ch/v1/sharedmobility/attributes
 ```
  
 The following attributes are available:
+| Attribute | Description |
+| --------------- | --------- |
 | ch.bfe.sharedmobility.provider.id | Provider Id according to providers.json |
 | ch.bfe.sharedmobility.pickup_type | System mode (free_floating or station_based) |
 | ch.bfe.sharedmobility.vehicle_type | Vehicle type of a system |
-| Attributes to query station_based systems |
+
+
+Attributes to query station_based systems
+| Attribute | Description |
 | ch.bfe.sharedmobility.available | Availability of a station |
+| ch.bfe.sharedmobility.station.id | Id of a station |
+| ch.bfe.sharedmobility.station.postcode | ZIP code of a station. Note that not all stations have postcode information |
+| ch.bfe.sharedmobility.station.region.id | Id of a systems regions. Note that not all systems have region information |
+| ch.bfe.sharedmobility.station.status.installed | If *true* a Station is installed on the street |
+| ch.bfe.sharedmobility.station.status.renting | If *true* a Station is renting vehicles. Even if the station is empty |
+
+Attributes to query free_floating systems
+| Attribute | Description |
+| ch.bfe.sharedmobility.vehicle.status.disabled | If *true* a vehicle is currently disabled |
+| ch.bfe.sharedmobility.vehicle.status.reserved | If *true* a vehicle is currently reserved |
+
+
