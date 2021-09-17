@@ -1,5 +1,5 @@
 # Access sharedmobility.ch data using the REST API
-The data of the GBFS-endpoint of sharedmobility.ch can be accessed with a RESTful API. 
+The data of the [GBFS-endpoint](https://sharedmobility.ch/gbfs.json) of [sharedmobility.ch](https://www.sharedmobility.ch/) can be accessed with a RESTful API. 
 Here we show you some examples how to query the API.
 
 ## General information
