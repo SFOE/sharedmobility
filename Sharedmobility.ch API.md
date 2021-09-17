@@ -19,3 +19,9 @@ E.G: [Get all available attributes](https://api.sharedmobility.ch/v1/sharedmobil
 https://api.sharedmobility.ch/v1/sharedmobility/attributes
 ```
  
+The following attributes are available:
+| ch.bfe.sharedmobility.provider.id | Provider Id according to providers.json |
+| ch.bfe.sharedmobility.pickup_type | System mode (free_floating or station_based) |
+| ch.bfe.sharedmobility.vehicle_type | Vehicle type of a system |
+| Attributes to query station_based systems |
+| ch.bfe.sharedmobility.available | Availability of a station |
