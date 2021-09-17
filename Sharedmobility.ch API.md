@@ -46,6 +46,7 @@ Attributes to query free_floating systems
 
 ## GET find
 Use the [find](https://api.sharedmobility.ch/documentation#/v1/getFind) endpoint for a fulltext search in *station name* and *station address*.
+
 E.G: [Get all stations with name "ETH Hönggerberg"](https://api.sharedmobility.ch/v1/sharedmobility/find?searchText=ETH%20H%C3%B6nggerberg&searchField=ch.bfe.sharedmobility.station.name&offset=0&geometryFormat=esrijson)
 ```
 https://api.sharedmobility.ch/v1/sharedmobility/find?
@@ -55,6 +56,25 @@ searchText=ETH Hönggerberg
 &geometryFormat=esrijson
 ```
 
+E.G: [Get all "Rent_a_bike" stations which contain "Bahnhof"](https://api.sharedmobility.ch/v1/sharedmobility/find?filters=ch.bfe.sharedmobility.provider.id%3Drent_a_bike&searchText=SBB&searchField=ch.bfe.sharedmobility.station.name&offset=0&geometryFormat=esrijson)
+```
+https://api.sharedmobility.ch/v1/sharedmobility/find?filters=ch.bfe.sharedmobility.provider.id=rent_a_bike
+&searchText=SBB
+&searchField=ch.bfe.sharedmobility.station.name
+&offset=0
+&geometryFormat=esrijson
+```
+
+E.G: [Get all E-Bikes from provider "publiebike" with station name "Mittelstrasse"](https://api.sharedmobility.ch/v1/sharedmobility/find?filters=ch.bfe.sharedmobility.vehicle_type%3DE-Bike&filters=ch.bfe.sharedmobility.provider.id%3Dpubliebike&searchText=Mittelstrasse&searchField=ch.bfe.sharedmobility.station.name&offset=0&geometryFormat=esrijson )
+```
+https://api.sharedmobility.ch/v1/sharedmobility/find?
+filters=ch.bfe.sharedmobility.vehicle_type=E-Bike
+&filters=ch.bfe.sharedmobility.provider.id=publiebike
+&searchText=Mittelstrasse
+&searchField=ch.bfe.sharedmobility.station.name
+&offset=0
+&geometryFormat=esrijson 
+```
 ## GET identify
 
 ## GET providers
