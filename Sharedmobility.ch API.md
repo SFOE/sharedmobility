@@ -18,3 +18,4 @@ E.G: [Get all available attributes](https://api.sharedmobility.ch/v1/sharedmobil
 ```
 https://api.sharedmobility.ch/v1/sharedmobility/attributes
 ```
+ 
