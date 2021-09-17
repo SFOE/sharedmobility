@@ -2,7 +2,8 @@
 
 Sharedmobility.ch aggregates the data of shared mobility providers in near real-time. The data is available as:
 
-* GBFS 2.0 endpoint
+* [GBFS 2.0 endpoint](https://github.com/SFOE/sharedmobility/blob/main/Access%20the%20data.md#gbfs-20-endpoint)
+* Web-Service
 
 **Terms of use**: Open use. Must provide the source.
 
@@ -21,3 +22,7 @@ Please check the differences to GBFS 2.0 made to support multiple systems in one
 
 [Additions to GBFS](https://github.com/SFOE/sharedmobility/blob/main/Additions%20to%20GBFS.md)
 
+## Web-Service
+
+RESTful API: [api.sharedmobility.ch](https://api.sharedmobility.ch/documentation)
+See [Access sharedmobility.ch data using the REST API](https://github.com/SFOE/sharedmobility/blob/main/Sharedmobility.ch%20API.md)
