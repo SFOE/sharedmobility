@@ -24,6 +24,4 @@ Please check the differences to GBFS 2.0 made to support multiple systems in one
 
 ## Web-Service
 
-RESTful API: [api.sharedmobility.ch](https://api.sharedmobility.ch/documentation)
-
 See [Access sharedmobility.ch data using the REST API](https://github.com/SFOE/sharedmobility/blob/main/Sharedmobility.ch%20API.md)
