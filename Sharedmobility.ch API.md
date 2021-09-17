@@ -76,6 +76,40 @@ filters=ch.bfe.sharedmobility.vehicle_type=E-Bike
 &geometryFormat=esrijson 
 ```
 ## GET identify
+Use the [identify](https://api.sharedmobility.ch/documentation#/v1/getIdentify) endpoint for spatial queries.
+
+E.G: [Get all available vehicles which are within 200m around point 8.72334 47.50024](https://api.sharedmobility.ch/v1/sharedmobility/identify?Geometry=8.72334%2C47.50024&Tolerance=200&offset=0&geometryFormat=esrijson)
+```
+https://api.sharedmobility.ch/v1/sharedmobility/identify?
+Geometry=8.72334,47.50024
+&Tolerance=200
+&offset=0
+&geometryFormat=esrijson
+```
+
+E.G: [Get all available E-Scooter which are within 500m around point 8.72334 47.50024](https://api.sharedmobility.ch/v1/sharedmobility/identify?filters=ch.bfe.sharedmobility.vehicle_type%3DE-Scooter&Geometry=8.72334%2C47.50024&Tolerance=500&offset=0&geometryFormat=esrijson)
+```
+https://api.sharedmobility.ch/v1/sharedmobility/identify?
+filters=ch.bfe.sharedmobility.vehicle_type=E-Scooter
+&Geometry=8.72334,47.50024
+&Tolerance=500
+&offset=0
+&geometryFormat=esrijson
+```
+
+
+E.G: [Get all available station-based E-Bikes which are within 5000m around 7.57699,47.55352](https://api.sharedmobility.ch/v1/sharedmobility/identify?filters=ch.bfe.sharedmobility.vehicle_type%3DE-Bike&filters=ch.bfe.sharedmobility.pickup_type%3Dstation_based&Geometry=7.57699%2C47.55352&Tolerance=5000&offset=0&geometryFormat=esrijson)
+```
+https://api.sharedmobility.ch/v1/sharedmobility/identify?
+filters=ch.bfe.sharedmobility.vehicle_type=E-Bike
+&filters=ch.bfe.sharedmobility.pickup_type=station_based
+&Geometry=7.57699,47.55352
+&Tolerance=5000
+&offset=0
+&geometryFormat=esrijson
+```
+
+Note: You can use the [SearchServer](https://api3.geo.admin.ch/services/sdiservices.html#search) of the [GeoAdmin API](https://www.bfe.admin.ch/bfe/en/home/supply/statistics-and-geodata/geoinformation/programming-interfaces/geoadmin-api.html) to get the coordinates of an address (see [step 1 of GeoAdmin documentation](https://github.com/SFOE/geo-api-documentation#1-get-the-coordinates-of-an-address)).
 
 ## GET providers
 
