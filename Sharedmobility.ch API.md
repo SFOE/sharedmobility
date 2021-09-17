@@ -112,7 +112,30 @@ filters=ch.bfe.sharedmobility.vehicle_type=E-Bike
 Note: You can use the [SearchServer](https://api3.geo.admin.ch/services/sdiservices.html#search) of the [GeoAdmin API](https://www.bfe.admin.ch/bfe/en/home/supply/statistics-and-geodata/geoinformation/programming-interfaces/geoadmin-api.html) to get the coordinates of an address (see [step 1 of GeoAdmin documentation](https://github.com/SFOE/geo-api-documentation#1-get-the-coordinates-of-an-address)).
 
 ## GET providers
+Use the [providers](https://api.sharedmobility.ch/documentation#/v1/getProviders) endpoint to get details about shared mobility providers.
+
+E.G: [Get a list of all providers](https://api.sharedmobility.ch/v1/sharedmobility/providers)
+```
+https://api.sharedmobility.ch/v1/sharedmobility/providers
+```
+
+E.G: [Get details of provider *donkey_thun*](https://api.sharedmobility.ch/v1/sharedmobility/providers)
+```
+https://api.sharedmobility.ch/v1/sharedmobility/providers/donkey_thun
+```
+Note: Provider_id is according to [providers.json](https://sharedmobility.ch/providers.json)
 
 ## GET regions
+Use the [regions](https://api.sharedmobility.ch/documentation#/v1/getRegions) endpoint to get details about shared mobility regions.
 
+E.G: [Get a list of all regions](https://api.sharedmobility.ch/v1/sharedmobility/regions)
+```
+https://api.sharedmobility.ch/v1/sharedmobility/regions
+```
 
+E.G: [Get details of region *emobility:968*](https://api.sharedmobility.ch/v1/sharedmobility/regions/emobility%3A968)
+```
+https://api.sharedmobility.ch/v1/sharedmobility/regions/emobility:968
+```
+
+Note that not all systems have region information
