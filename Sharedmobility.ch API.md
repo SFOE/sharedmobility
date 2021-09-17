@@ -23,7 +23,7 @@ https://api.sharedmobility.ch/v1/sharedmobility/attributes
 **Available attributes:** 
 | Attribute | Description |
 | --------------- | --------- |
-| ch.bfe.sharedmobility.provider.id | Provider Id according to [providers.json](https://sharedmobility.ch/providers.json) |
+| ch.bfe.sharedmobility.provider.id | Provider Id according to [providers.csv](https://github.com/nrohrbach/sharedmobility/blob/main/providers.csv) |
 | ch.bfe.sharedmobility.pickup_type | System mode (*free_floating* or *station_based*) |
 | ch.bfe.sharedmobility.vehicle_type | Vehicle type of a system |
 
@@ -124,7 +124,7 @@ E.G: [Get details of provider *donkey_thun*](https://api.sharedmobility.ch/v1/sh
 ```
 https://api.sharedmobility.ch/v1/sharedmobility/providers/donkey_thun
 ```
-Note: Provider_id is according to [providers.json](https://sharedmobility.ch/providers.json)
+Note: Provider_id is according to [providers.csv](https://github.com/nrohrbach/sharedmobility/blob/main/providers.csv)
 
 ## GET regions
 Use the [regions](https://api.sharedmobility.ch/documentation#/v1/getRegions) endpoint to get details about shared mobility regions.
