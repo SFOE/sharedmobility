@@ -1,6 +1,6 @@
 Shared mobility provider,provider id,vehicle type,Update cycle (Time to load in seconds)
 2EM Car Sharing,2em_cars,Car,300
-2EM Car Sharing,2em_cars,E-Car,300
+2EM Car Sharing,2em_cars_e,E-Car,300
 Carvelo2go,carvelo2go,E-CargoBike,0s
 Donkey Republic,donkey_ge,Bike,60s
 Donkey Republic,donkey_le_locle,Bike,60s
