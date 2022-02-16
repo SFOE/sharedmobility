@@ -6,14 +6,14 @@ Here we show you some examples how to query the API.
 * Swagger documentation: [api.sharedmobility.ch](https://api.sharedmobility.ch)
 
 ## Available endpoints
-* [GET attributes](https://github.com/nrohrbach/sharedmobility/blob/main/Sharedmobility.ch%20API.md#get-attributes)
-* [GET find](https://github.com/nrohrbach/sharedmobility/blob/main/Sharedmobility.ch%20API.md#get-find)
-* [GET identify](https://github.com/nrohrbach/sharedmobility/blob/main/Sharedmobility.ch%20API.md#get-identify)
-* [GET providers](https://github.com/nrohrbach/sharedmobility/blob/main/Sharedmobility.ch%20API.md#get-providers)
-* [GET regions](https://github.com/nrohrbach/sharedmobility/blob/main/Sharedmobility.ch%20API.md#get-regions)
+* [GET attributes](https://github.com/SFOE/sharedmobility/blob/main/Sharedmobility.ch-API.md#get-attributes)
+* [GET find](https://github.com/SFOE/sharedmobility/blob/main/Sharedmobility.ch-API.md#get-find)
+* [GET identify](https://github.com/SFOE/sharedmobility/blob/main/Sharedmobility.ch-API.md#get-identify)
+* [GET providers](https://github.com/SFOE/sharedmobility/blob/main/Sharedmobility.ch-API.md#get-providers)
+* [GET regions](https://github.com/SFOE/sharedmobility/blob/main/Sharedmobility.ch-API.md#get-regions)
 
 ## GET attributes
-Use the [attributes](https://api.sharedmobility.ch/documentation#/v1/getAttributes) endpoint to receive a list with available filters for [find](https://github.com/nrohrbach/sharedmobility/blob/main/Sharedmobility.ch%20API.md#get-find) and [identify](https://github.com/nrohrbach/sharedmobility/blob/main/Sharedmobility.ch%20API.md#get-identify) endpoints.
+Use the [attributes](https://api.sharedmobility.ch/documentation#/v1/getAttributes) endpoint to receive a list with available filters for [find](https://github.com/SFOE/sharedmobility/blob/main/Sharedmobility.ch-API.md#get-find) and [identify](https://github.com/SFOE/sharedmobility/blob/main/Sharedmobility.ch-API.md#get-identify) endpoints.
 
 E.G: [Get all available attributes](https://api.sharedmobility.ch/v1/sharedmobility/attributes)
 ```
@@ -23,7 +23,7 @@ https://api.sharedmobility.ch/v1/sharedmobility/attributes
 **Available attributes:** 
 | Attribute | Description |
 | --------------- | --------- |
-| ch.bfe.sharedmobility.provider.id | Provider Id according to [providers.csv](https://github.com/nrohrbach/sharedmobility/blob/main/providers.csv) |
+| ch.bfe.sharedmobility.provider.id | Provider Id according to [providers.csv](https://github.com/SFOE/sharedmobility/blob/main/providers.csv) |
 | ch.bfe.sharedmobility.pickup_type | System mode (*free_floating* or *station_based*) |
 | ch.bfe.sharedmobility.vehicle_type | Vehicle type of a system |
 
@@ -110,7 +110,7 @@ filters=ch.bfe.sharedmobility.vehicle_type=E-Bike
 &geometryFormat=esrijson
 ```
 
-Note: You can use the [SearchServer](https://api3.geo.admin.ch/services/sdiservices.html#search) of the [GeoAdmin API](https://www.bfe.admin.ch/bfe/en/home/supply/statistics-and-geodata/geoinformation/programming-interfaces/geoadmin-api.html) to get the coordinates of an address (see [step 1 of GeoAdmin documentation](https://github.com/SFOE/geo-api-documentation#1-get-the-coordinates-of-an-address)).
+Note: You can use the [SearchServer](https://api3.geo.admin.ch/services/sdiservices.html#search) of the [GeoAdmin API](https://www.bfe.admin.ch/bfe/en/home/supply/statistics-and-geodata/geoinformation/programming-interfaces/geoadmin-api.html) to get the coordinates of an address (see [step 1 of GeoAdmin documentation](https://github.com/SFOE/ApiDocumentation/blob/master/GeoAdminAPI_ExampleSonnendach.md#1-get-the-coordinates-of-an-address)).
 
 ## GET providers
 Use the [providers](https://api.sharedmobility.ch/documentation#/v1/getProviders) endpoint to get details about shared mobility providers.
@@ -124,7 +124,7 @@ E.G: [Get details of provider *donkey_thun*](https://api.sharedmobility.ch/v1/sh
 ```
 https://api.sharedmobility.ch/v1/sharedmobility/providers/donkey_thun
 ```
-Note: Provider_id is according to [providers.csv](https://github.com/nrohrbach/sharedmobility/blob/main/providers.csv)
+Note: Provider_id is according to [providers.csv](https://github.com/SFOE/sharedmobility/blob/main/providers.csv)
 
 ## GET regions
 Use the [regions](https://api.sharedmobility.ch/documentation#/v1/getRegions) endpoint to get details about shared mobility regions.
