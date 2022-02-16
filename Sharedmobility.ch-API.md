@@ -110,7 +110,7 @@ filters=ch.bfe.sharedmobility.vehicle_type=E-Bike
 &geometryFormat=esrijson
 ```
 
-Note: You can use the [SearchServer](https://api3.geo.admin.ch/services/sdiservices.html#search) of the [GeoAdmin API](https://www.bfe.admin.ch/bfe/en/home/supply/statistics-and-geodata/geoinformation/programming-interfaces/geoadmin-api.html) to get the coordinates of an address (see [step 1 of GeoAdmin documentation](https://github.com/SFOE/ApiDocumentation/blob/master/GeoAdminAPI_ExampleSonnendach.md#1-get-the-coordinates-of-an-address)).
+Note: You can use the [SearchServer](https://api3.geo.admin.ch/services/sdiservices.html#search) of the [GeoAdmin API](https://sfoe.github.io/ApiDocumentation/GeoAdminAPI/) to get the coordinates of an address (see [step 1 of GeoAdmin documentation](https://github.com/SFOE/ApiDocumentation/blob/master/GeoAdminAPI_ExampleSonnendach.md#1-get-the-coordinates-of-an-address)).
 
 ## GET providers
 Use the [providers](https://api.sharedmobility.ch/documentation#/v1/getProviders) endpoint to get details about shared mobility providers.
