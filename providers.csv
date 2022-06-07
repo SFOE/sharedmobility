@@ -16,8 +16,6 @@ Lime,lime_ebike,E-Bike,10s
 Lime,lime_escooter,E-Scooter,10s
 Mobility,mobility,Car,300s
 Mobility,emobility,E-Car,300s
-Mobility-Go,mobility_go,Car,300s
-Mobility-Go,emobility_go,E-Car,300s
 Nextbike,nextbike_ch,Bike,60s
 Pick-e-Bike,pickebike_aubonne,E-Bike,60s
 Pick-e-Bike,pickebike_basel,E-Bike,60s
