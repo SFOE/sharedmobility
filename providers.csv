@@ -12,14 +12,22 @@ Donkey Republic,donkey_yverdon-les-bains,Bike,60s
 edrive carsharing,edrivecarsharing,E-Car,60s
 JM Fleets,bird-platform-partner-jmfleetswl-biel,E-Scooter,60s
 JM Fleets,bird-platform-partner-jmfleets-bulle,E-Scooter,60s
-Lime,lime_ebike,E-Bike,10s
-Lime,lime_escooter,E-Scooter,10s
+Lime,lime_basel_escooter,E-Scooter,10s
+Lime,lime_opfikon_ebike,E-Bike,10s
+Lime,lime_opfikon_escooter,E-Scooter,10s
+Lime,lime_uster_escooter,E-Scooter,10s
+Lime,lime_wetzikon_escooter,E-Scooter,10s
+Lime,lime_winterthur_escooter,E-Scooter,10s
+Lime,lime_zug_escooter,E-Scooter,10s
+Lime,lime_zurich_ebike,E-Bike,10s
+Lime,lime_zurich_escooter,E-Scooter,10s
 Mobility,mobility,Car,300s
 Mobility,emobility,E-Car,300s
 Nextbike,nextbike_ch,Bike,60s
-Pick-e-Bike,pickebike_aubonne,E-Bike,60s
-Pick-e-Bike,pickebike_basel,E-Bike,60s
-Pick-e-Bike,pickebike_fribourg,E-Bike,60s
+Pick-e-Bike,pickebike_aubonne_ebike,E-Bike,60s
+Pick-e-Bike,pickebike_basel_ebike,E-Bike,60s
+Pick-e-Bike,pickebike_basel_emoped,E-Moped,60s
+Pick-e-Bike,pickebike_fribourg_ebike,E-Bike,60s
 PubliBike,publibike,Bike,180s
 PubliBike,publiebike,E-Bike,180s
 Seven Group,bird-platform-partner-seven-group-zurich,E-Scooter,60s
