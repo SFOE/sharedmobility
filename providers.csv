@@ -1,6 +1,9 @@
 Shared mobility provider,provider id,vehicle type,Update cycle (Time to load in seconds)
 2EM Car Sharing,2em_cars,Car,300
 2EM Car Sharing,2em_cars_e,E-Car,300
+Bird,bird-basel-escooter,E-Scooter,60s
+Bird,bird-kloten-escooter,E-Scooter,60s
+Bird,bird-zurich-escooter,E-Scooter,60s
 Bolt,bolt_zurich,E-Scooter,10s
 Carvelo2go,carvelo2go,E-CargoBike,60s
 Donkey Republic,donkey_ge,Bike,60s
@@ -31,14 +34,7 @@ Pick-e-Bike,pickebike_basel_emoped,E-Moped,60s
 Pick-e-Bike,pickebike_fribourg_ebike,E-Bike,60s
 PubliBike,publibike,Bike,180s
 PubliBike,publiebike,E-Bike,180s
-Seven Group,bird-platform-partner-seven-group-zurich,E-Scooter,60s
-Seven Group,bird-platform-partner-seven-group-basel,E-Scooter,60s
-Seven Group,bird-platform-partner-seven-group-winterthur,E-Scooter,60s
 Sponti-Car,sponticar,E-Car,60s
 TIER E-Scooter-Sharing,tier,E-Scooter,60s
 TIER E-Bike-Sharing, tier_ebike, E-Bike, 60s
 VOI,voiscooters.com,E-Scooter,0s
-Zisch,bird-platform-partner-zisch-basel,E-Scooter,60s
-Zisch,bird-platform-partner-zisch-group-biel, E-Scooter, 60s
-Zisch,bird-platform-partner-zisch-uster, E-Scooter, 60s
-Zisch,bird-platform-partner-zisch-zurich,E-Scooter,60s
