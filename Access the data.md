@@ -26,6 +26,6 @@ Please check the differences to GBFS 2.0 made to support multiple systems in one
 
 See [Access sharedmobility.ch data using the REST API](https://github.com/SFOE/sharedmobility/blob/main/Sharedmobility.ch-API.md)
 
-### Service status
+## Service status
 
 See [Service status](https://stats.uptimerobot.com/xx6M9cLVN3) for uptime information.
