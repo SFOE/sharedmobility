@@ -3,6 +3,8 @@
 Sharedmobility.ch is based on the [General Bikeshare Feed Specification (GBFS)](https://github.com/NABSA/gbfs/blob/v2.0/gbfs.md) Version 2.0.
 GBFS is optimized to represent one single system. In order to represent multiple systems in one feed, the following additions to GBFS V2.0 were made:
 
+ ⚠️ **Additions were only made to GBFS 2.0 endpoint. Please use [GBFS 2.3](https://github.com/SFOE/sharedmobility/blob/main/Access%20the%20data.md#gbfs-23-endpoint) which is 100% GBFS compliant!**
+
 ## Add providers.json
 
 [Providers.json](https://sharedmobility.ch/providers.json) was added as an additional JSON-File to the GBFS-Feed. Providers.json describes metainformation of every system. Fields are identical to system_information.json. The following fields were added:
