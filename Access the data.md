@@ -23,6 +23,8 @@ GBFS 2.3 endpoint:
 :warning: **Please note that a valid email is required in the Authorization header as followed:**
 ```
 curl -H "Authorization: gbfs@sharedmobility.ch" -i "https://sharedmobility.ch/v2/"
+or
+https://sharedmobility.ch/v2/gbfs?Authorization=gbfs@sharedmobility.ch
 ```
 
 ## GBFS 2.0 endpoint
