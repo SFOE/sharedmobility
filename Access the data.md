@@ -4,7 +4,7 @@ Sharedmobility.ch aggregates the data of shared mobility providers in near real-
 
 * [GBFS 2.3 endpoint](https://github.com/SFOE/sharedmobility/blob/main/Access%20the%20data.md#gbfs-23-endpoint)
 * [GBFS 2.0 endpoint](https://github.com/SFOE/sharedmobility/blob/main/Access%20the%20data.md#gbfs-20-endpoint)
-* [Web-Service](https://github.com/SFOE/sharedmobility/blob/main/Access%20the%20data.md#web-service)
+* [Web-Service (API)](https://github.com/SFOE/sharedmobility/blob/main/Access%20the%20data.md#web-service)
 
 **Terms of use**: Open use. Must provide the source.
 
