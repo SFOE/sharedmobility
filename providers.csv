@@ -1,46 +1,63 @@
 Shared mobility provider,provider id,vehicle type,Update cycle (Time to load in seconds)
-2EM Car Sharing,2em_cars,Car,300
-2EM Car Sharing,2em_cars_e,E-Car,300
-Bird,bird-basel-escooter,E-Scooter,60s
-Bird,bird-kloten-escooter,E-Scooter,60s
-Bird,bird-winterthur,E-Scooter,60s
-Bird,bird-zurich-escooter,E-Scooter,60s
-Bolt,bolt_zurich,E-Scooter,10s
+Bird,bird-basel,E-Scooter,60s
+Bird,bird-kloten,E-Scooter,60s
+Bird,bird-schaffhausen,E-Scooter,60s
+Bird,bird-zurich,E-Scooter,60s
+Bolt,bolt_basel,E-Scooter,60s
+Bolt,bolt_zurich,E-Scooter,60s
+Carvelo2go,carvelo2go,E-Car,60s
+Carvelo2go,carvelo2go,CargoBike,60s
 Carvelo2go,carvelo2go,E-CargoBike,60s
 Donkey Republic,donkey_ge,Bike,60s
-Donkey Republic,donkey_le_locle,Bike,60s
-Donkey Republic,donkey_li,Bike,60s
+Donkey Republic,donkey_ge,E-Bike,60s
 Donkey Republic,donkey_neuchatel,Bike,60s
-Donkey Republic,donkey_sion,Bike,60s
 Donkey Republic,donkey_thun,Bike,60s
+Donkey Republic,donkey_thun,E-Bike,60s
+Donkey Republic,donkey_thun,E-CargoBike,60s
 Donkey Republic,donkey_yverdon-les-bains,Bike,60s
-edrive carsharing,edrivecarsharing,E-Car,60s
-JM Fleets,bird-platform-partner-jmfleetswl-biel,E-Scooter,60s
-JM Fleets,bird-platform-partner-jmfleets-bulle,E-Scooter,60s
-LIEmobil,liemobil_liechtenstein_ebike,E-Bike,60s
-Lime,lime_basel_escooter,E-Scooter,10s
-Lime,lime_opfikon_ebike,E-Bike,10s
-Lime,lime_opfikon_escooter,E-Scooter,10s
-Lime,lime_uster_escooter,E-Scooter,10s
-Lime,lime_wetzikon_escooter,E-Scooter,10s
-Lime,lime_winterthur_escooter,E-Scooter,10s
-Lime,lime_zug_escooter,E-Scooter,10s
-Lime,lime_zurich_ebike,E-Bike,10s
-Lime,lime_zurich_escooter,E-Scooter,10s
+Donkey Republic,epfl_lausanne,Bike,60s
+Dott,dott_basel,E-Scooter,60s
+Dott,dott_romanshorn,E-Bike,60s
+Dott,dott_romanshorn,E-Scooter,60s
+Dott,dott_rorschach,E-Bike,60s
+Dott,dott_rorschach,E-Scooter,60s
+Dott,dott_st-gallen,E-Bike,60s
+Dott,dott_st-gallen,E-Scooter,60s
+Dott,dott_zurich,E-Scooter,60s
+edrive carsharing,edrivecarsharing,E-Car,300s
+LIEmobil,liemobil_liechtenstein,E-Bike,60s
+Lime,lime_basel,E-Scooter,60s
+Lime,lime_opfikon,E-Bike,60s
+Lime,lime_opfikon,E-Scooter,60s
+Lime,lime_uster,E-Scooter,60s
+Lime,lime_wetzikon,E-Scooter,60s
+Lime,lime_winterthur,E-Scooter,60s
+Lime,lime_zug,E-Scooter,60s
+Lime,lime_zurich,E-Bike,60s
+Lime,lime_zurich,E-Scooter,60s
 Mobility,mobility,Car,300s
-Mobility,emobility,E-Car,300s
+Mobility,mobility,E-Car,300s
+MOOINZ,nextbike_ms,Bike,60s
+MOOINZ,nextbike_ms,E-Bike,60s
+MOOINZ,nextbike_ms,E-CargoBike,60s
+mybuxi,mybuxi_ch,E-Car,3600s
 Nextbike,nextbike_ch,Bike,60s
-Pick-e-Bike,pickebike_aubonne_ebike,E-Bike,60s
-Pick-e-Bike,pickebike_basel_ebike,E-Bike,60s
-Pick-e-Bike,pickebike_basel_emoped,E-Moped,60s
-Pick-e-Bike,pickebike_fribourg_ebike,E-Bike,60s
-PubliBike,publibike,Bike,180s
-PubliBike,publiebike,E-Bike,180s
-Regivelo.ch,donkey_kreuzlingen,Bike,60s 
+Nextbike,nextbike_ch,E-Bike,60s
+Nextbike,nextbike_ch,E-CargoBike,60s
+Pick-e-Bike,pickebike_aubonne,E-Bike,60s
+Pick-e-Bike,pickebike_basel,E-Bike,60s
+Pick-e-Bike,pickebike_basel,E-Moped,60s
+Pick-e-Bike,pickebike_fribourg,E-Bike,60s
+Quickrent,quickrent,Car,60s
+Regivelo.ch,donkey_kreuzlingen,Bike,60s
+Regivelo.ch,donkey_kreuzlingen,E-Bike,60s
+Regivelo.ch,donkey_kreuzlingen,E-CargoBike,60s
 Share Birrer,share_birrer_ch,E-Car,300s
-Sponti-Car,sponticar,E-Car,60s
-TIER E-Scooter-Sharing,tier,E-Scooter,60s
-TIER E-Bike-Sharing, tier_ebike, E-Bike, 60s
+Share Birrer,share_birrer_ch,Bike,300s
+Sponti-Car,sponti,E-Car,3600s
+Sponti-Car,sponti,E-Bike,3600s
 Velospot,velospot,Bike,60s
-VOI,voiscooters.com,E-Scooter,0s
-
+Velospot,velospot,E-Bike,60s
+Velospot,velospot,E-Scooter,60s
+VOI,voiscooters.com,E-Bike,300s
+VOI,voiscooters.com,E-Scooter,300s
